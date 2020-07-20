@@ -7,9 +7,9 @@
 
 ## 新增功能
 
-customConfig.customInsertVideo
-customConfig.textContainerHeight
-customConfig.customVideoplaceholder
+- customConfig.customInsertVideo=function(value,insert){...}
+- customConfig.textContainerHeight="600px"
+- customConfig.customVideoplaceholder="插入视频"
 
 ## 原版wangEditor请参考官网
 
