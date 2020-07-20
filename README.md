@@ -6,8 +6,7 @@
 - 基于原版wangEditor，增加自定义插入视频方法、自定义编辑器容器高度、自定义插入视频placeholder、调整panel弹窗z-index值。
 
 ## 安装
-- npm install wangeditor_diyvideo
-
+- npm install @lyyzhh/wangeditordiyvideo
 ## 新增功能
 
 - customConfig.customInsertVideo=function(value,insert){...}
