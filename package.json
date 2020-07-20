@@ -1,0 +1,63 @@
+{
+  "name": "wangEditor_diyvideo",
+  "title": "wangEditor_diyvideo",
+  "version": "1.0.0",
+  "description": "wangEditor_diyvideo - 基于wangEditor富文本编辑器的功能补充",
+  "homepage": "https://github.com/lyyzhh/wangEditor_diyvideo",
+  "author": {
+    "name": "Ron",
+    "url": "https://github.com/lyyzhh"
+  },
+  "keywords": [
+    "wangEditor",
+    "wangEditor_diyvideo",
+    "web 富文本编辑器",
+    "富文本插入视频",
+    "富文本插入腾讯视频"
+  ],
+  "main": "release/wangEditor.js",
+  "maintainers": [
+    {
+      "name": "",
+      "web": "",
+      "mail": ""
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/lyyzhh/wangEditor_diyvideo"
+    }
+  ],
+  "scripts": {
+    "release": "gulp",
+    "win-example": "node ./example/server/index.js",
+    "example": "/bin/rm -rf ./example/upload-files && mkdir ./example/upload-files && npm run win-example"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.0",
+    "cssgrace": "^3.0.0",
+    "formidable": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.3.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^2.5.0",
+    "gulp-uglify": "^2.1.2",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.3.0",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^5.4.0",
+    "koa-static-cache": "^4.0.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {}
+}

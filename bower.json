@@ -1,0 +1,23 @@
+{
+  "name": "wangEditor_diyvideo",
+  "description": "wangEditor_diyvideo - 基于wangEditor富文本编辑器的功能补充",
+  "main": "release/wangEditor.js",
+  "authors": [
+    "https://github.com/lyyzhh"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "wangEditor",
+    "wangEditor_diyvideo",
+    "web 富文本编辑器",
+    "富文本插入视频",
+    "富文本插入腾讯视频"
+  ],
+  "homepage": "https://github.com/wangfupeng1988/wangEditor",
+  "moduleType":  [
+    "amd",
+    "cmd",
+    "node"
+  ],
+  "private": true
+}
